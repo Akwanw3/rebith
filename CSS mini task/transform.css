@@ -1,0 +1,40 @@
+.rotate{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+transition: transform 1s ease;
+}
+.skew{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    transition: transform 1s ease;
+}
+.scale{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: gray;
+    transition: transform 0.5s ease;
+}
+.translate{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: gold;
+    transition: transform 0.5s ease;
+}
+.rotate:hover{
+    transform:rotate(45deg);
+}
+.scale:hover{
+    transform: scale(1.5);
+}
+.translate:hover{
+    transform: translateX(20px);
+}
+.skew:hover{
+    transform: skew(10deg);
+}
