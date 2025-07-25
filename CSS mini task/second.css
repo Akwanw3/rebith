@@ -1,0 +1,23 @@
+.nav{
+    background-image: linear-gradient(to left, red,blue,yellow);
+    padding: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.nav ul li a:hover{
+    color: blueviolet;
+    background-color: aqua;
+    padding: 5px;
+}

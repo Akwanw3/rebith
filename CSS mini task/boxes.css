@@ -1,0 +1,20 @@
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+}

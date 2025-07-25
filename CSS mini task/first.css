@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+.one{
+    background-color: blue;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.two{
+    background-color: brown;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.three{
+    background-color: yellowgreen;
+    padding: 20px;
+    margin-top: 10px;
+}

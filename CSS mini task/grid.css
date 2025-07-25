@@ -1,0 +1,22 @@
+.item{
+    width: 100px;
+    height: 100px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    gap: 10px;
+}
+#one{
+    background-color: red;
+}
+#two{
+    background-color: blue;
+}
+#three{
+    background-color: green;
+}
+#four{
+    background-color: yellow;
+}
