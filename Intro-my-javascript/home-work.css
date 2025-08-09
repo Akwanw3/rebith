@@ -1,0 +1,25 @@
+.active{
+    color: green;
+    
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px ;
+    transition: background-color 0.3s ease;
+}
+
+
+#output{
+    font-size: 24px;
+    color: darkblue;
+    margin-top: 20px;
+}
+
+#colorBtn{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 30px;
+}

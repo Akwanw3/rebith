@@ -127,6 +127,47 @@ for( let g=0; g<scorgrade.length; g++){
 }
 
 
+let mysrg =  "Firstline\n\t\secondline\nthridline "
+       console.log(mysrg)
+
+        Grade=''
+       function checkgrade(Score){
+       
+        if(Score>=90 && Score<=100){
+            Grade="A"
+        }else if(Score>=80 && Score< 90){
+            Grade= "B"
+        }else if(Score>=70 && Score<80){
+            Grade="C"
+        }else if(Score>=60 && Score<70){
+            Grade='D'
+        }else if (Score>=0 && Score<60){
+            Grade= 'F'
+        }else{
+            Grade="Invalid Score"
+        }
+         console.log(Grade)
+
+       }
+
+       checkgrade(12)
+       console.log('boy')
+
+
+       let math=[3,7,2,9,4]
+       let max= math[0]
+
+       for( m=0; m<math.length; m++){
+            if (math[m]>max){
+                max=math[m]
+            }
+
+       }
+       console.log(max)
+
+
+
+       
 
 
 
